@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 from time import sleep
 import telebot
 
-Token="6493114823:AAFHPswOsiLQ9Gy_8jLrUPOcpxx8FqEBL08"
+Token="BOT_TOKEN"
 bot=telebot.TeleBot(Token,parse_mode=None)
 
 path=Service('C:\chromedriver.exe')
